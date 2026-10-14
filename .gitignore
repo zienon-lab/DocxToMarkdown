@@ -1,0 +1,24 @@
+# 虚拟环境
+.venv/
+venv/
+
+# 构建产物（PyInstaller）
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+*.pyo
+
+# 打包生成的可执行文件
+DocxToMarkdown.exe
+
+# 运行时生成的数据
+conversion-report.csv
+.docx-to-markdown-sync.json
+
+# 编辑器 / 操作系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
